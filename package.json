@@ -1,0 +1,24 @@
+{
+  "name": "socketsio",
+  "version": "1.0.0",
+  "description": "a simple chat app",
+
+"engines": {
+    "node": "8.9.1"
+  },
+  
+  "main": "server.js",
+  
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*"
+  },
+  "author": "chinmay",
+  "license": "ISC",
+  
+}
