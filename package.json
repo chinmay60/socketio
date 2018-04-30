@@ -1,0 +1,19 @@
+{
+  "name": "socketsio",
+  "version": "1.0.0",
+  "description": "a simple chat app",
+  "main": "server.js",
+  "engines": {
+    "node": "6.2.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "chinmay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.3",
+    "jquery": "3.3.1",
+    "socket.io": "2.1.0"
+  }
+}
